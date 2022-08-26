@@ -42,4 +42,3 @@ src/types/api.ts
 !.yarn/versions
 !.yarnrc.yml
 node_modules
-node_modules
