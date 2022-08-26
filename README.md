@@ -38,4 +38,8 @@ An implementation of a lightweight, foundational Modal component in React from s
 | onOk     | The `OK` button is clicked                            |
 | onOpened | The modal is opened                                   |
 
-
+Running the app
+```sh
+yarn
+yarn dev
+```
