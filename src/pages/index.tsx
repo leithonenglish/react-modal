@@ -1,10 +1,15 @@
 /* eslint-disable canonical/filename-match-exported */
 import { type NextPage } from 'next';
+import Image from 'next/image';
 import { useState } from 'react';
 import ExampleBox from '@/components/ExampleBox';
 import Modal from '@/components/Modal';
 import SimpleButton from '@/components/SimpleButton';
-import { wrapperStyle, exampleBoxWrapper } from './index.css';
+import {
+  wrapperStyle,
+  titleWrapperStyle,
+  exampleBoxWrapper,
+} from './index.css';
 
 type Modals = {
   baby: boolean;
@@ -41,7 +46,16 @@ const Index: NextPage = () => {
 
   return (
     <div className={wrapperStyle}>
-      <h1>Modal</h1>
+      <div className={titleWrapperStyle}>
+        <Image
+          alt="logo"
+          height={45.41}
+          quality={100}
+          src="/logo.png"
+          width={48}
+        />
+        <h1>Modals</h1>
+      </div>
       <p>
         Modals are a common UI pattern in web applications, but implementing
         them in a correct, accessible, and performant way is an exercise in
