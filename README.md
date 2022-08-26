@@ -1,4 +1,8 @@
-## Purpose 
+<p align="center">
+<img width="130" alt="logo" src="https://user-images.githubusercontent.com/7442937/186945776-57eef137-98f6-411f-a33d-d8cb10dce8d8.png">
+</p>
+
+# Simply Modals
 An implementation of a lightweight, foundational Modal component in React from scratch. The features include:
 - Focus management
 - Background `scroll-locking` when modal is opened
