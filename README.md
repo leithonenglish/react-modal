@@ -13,8 +13,6 @@ An implementation of a lightweight, foundational Modal component in React from s
 
 ![modals](https://user-images.githubusercontent.com/7442937/183442595-45fed252-d08c-4a23-a516-1f2aa2134fef.gif)
 
-### Please enjoy the [full demo here](https://www.loom.com/share/c708af13a2fb48798dfa8c3ba958827f).
-
 ## Available props
 | Prop             | Type      | Required | Default Value | Description                                   |
 |------------------|-----------|----------|---------------|-----------------------------------------------|
